@@ -7,6 +7,8 @@ namespace UnitTestsTuto
     {
         private static void Main(string[] args)
         {
+            //TODO Try Windows Form GUI
+
             //Create an instance of the Calculator class
             Calculator calculator = new Calculator();
 
