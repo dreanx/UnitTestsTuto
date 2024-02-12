@@ -16,7 +16,7 @@ namespace UnitTestsTuto
             Console.WriteLine("Enter 1st Number:");
             calculator.a = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd Number:");
-            calculator.b = int.Parse(Console.ReadLine());
+            calculator.b = int.Parse(Console.ReadLine()); 
 
             //Addition
             int resultAdd = calculator.Add(calculator.a, calculator.b);
